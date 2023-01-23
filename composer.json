@@ -1,0 +1,25 @@
+{
+  "name": "fschmid-dev/redirect-exception-bundle",
+  "description": "tbd",
+  "type": "symfony-bundle",
+  "authors": [
+    {
+      "name": "FSchmid",
+      "email": "info@fschmid.dev"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=8",
+    "symfony/flex": "^2",
+    "symfony/http-kernel": "6.2.*"
+  },
+  "require-dev": {
+    "roave/security-advisories": "dev-latest"
+  },
+  "autoload": {
+    "psr-4": {
+      "FSchmidDev\\SSOServiceBundle\\": "src/"
+    }
+  }
+}

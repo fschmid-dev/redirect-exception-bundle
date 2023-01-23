@@ -19,7 +19,7 @@
   },
   "autoload": {
     "psr-4": {
-      "FSchmidDev\\SSOServiceBundle\\": "src/"
+      "FSchmidDev\\RedirectExceptionBundle\\": "src/"
     }
   }
 }

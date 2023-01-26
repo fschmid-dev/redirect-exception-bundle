@@ -1,0 +1,5 @@
+services:
+  fschmid_dev_redirect_exception.event_subscriber.exception_subscriber:
+    class: FSchmidDev\RedirectExceptionBundle\EventSubscriber\ExceptionSubscriber
+    tags:
+      - 'kernel.event_subscriber'

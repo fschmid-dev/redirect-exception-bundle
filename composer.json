@@ -1,6 +1,6 @@
 {
   "name": "fschmid-dev/redirect-exception-bundle",
-  "description": "tbd",
+  "description": "Adds a special RedirectException with a Subscriber, to enable redirects from outside of a controller.",
   "type": "symfony-bundle",
   "authors": [
     {
